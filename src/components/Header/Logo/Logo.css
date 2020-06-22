@@ -1,0 +1,10 @@
+.Logo img {
+    height: 100px;
+    width: 80%;
+}
+
+@media (min-width: 48.5rem) {
+    .Logo img {
+        width: 45%;
+    }
+}
