@@ -8,14 +8,16 @@ import "./Footer.css";
 
 const Footer = props => {
     return (
-        <footer >
-            <div className="Footer">
+        <div className="Footer" >
+            <div className="Footer-components">
                 <Address />
                 <SocialMedia />
                 <Hours />
             </div>
-            <Copyright />
-        </footer>
+            <div className="Copyright">
+                <Copyright />
+            </div>   
+        </div>
         
     );
 };

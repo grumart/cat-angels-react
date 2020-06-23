@@ -1,0 +1,23 @@
+.Section {
+    margin: 0;
+}
+
+.White {
+    background-color: white;
+    color: #142850;
+}
+
+.Blue {
+    background-color: #00a8cc;
+    color: white;
+}
+
+
+@media (min-width: 500px) {
+    .Column {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        padding: 0.5rem 0;
+    }
+}

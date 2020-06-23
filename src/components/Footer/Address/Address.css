@@ -6,7 +6,8 @@
 .Address-adnotation {
     font-size: 0.8rem;
     font-style: italic;
-    width: 70%;
+    text-align: justify;
+    width: 75%;
     padding-top: 1rem;
     margin: 0 auto;
 }

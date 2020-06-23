@@ -1,8 +1,11 @@
 .Footer {
+    display: flex;
+    flex-direction: column; 
+}
+
+.Footer-components {
     background: #142850;
     color: white;
-    position: fixed;
-    bottom: 0;
     padding-bottom: 1rem;
     width: 100%;
     display: flex;
@@ -11,7 +14,7 @@
 }
 
 @media (min-width: 500px) {
-    .Footer {
+    .Footer-components {
         flex-direction: row;
         align-items: flex-start;
     }

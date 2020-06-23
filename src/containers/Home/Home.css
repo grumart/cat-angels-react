@@ -1,0 +1,35 @@
+.Home {
+    margin-top: 70px;
+    /* width: 100vw; */
+}
+
+.Home-mission {
+  padding: 2rem;
+  margin: 0;
+  width: 100%;
+  text-align: justify;
+}
+
+.Home-mission p {
+  font-size: 0.7rem;
+  font-style: italic;
+  text-align: right;
+}
+
+@media (max-width: 40rem) {
+    iframe {
+      width: 100vw;
+      padding: 0 2rem;
+    }
+  }
+
+@media (min-width: 500px) {
+  iframe {
+    margin-left: 2rem;
+  }
+
+  .Home-mission {
+    padding-right: 2rem;
+    margin: auto 0;
+  }
+}

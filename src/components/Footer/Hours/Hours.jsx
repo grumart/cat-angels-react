@@ -15,7 +15,7 @@ const Hours = props => {
             <section>
                 Saturday 1 - 5pm
             </section>
-            <section class="Hours-adnotation">
+            <section className="Hours-adnotation">
                 Other times by appointment
             </section>
         </div>

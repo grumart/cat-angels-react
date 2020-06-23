@@ -33,14 +33,12 @@
     .NavigationItem {
         margin: 0;
         display: flex;
-        height: 100%;
         width: auto;
         align-items: flex-end;
     }
     
     .NavigationItem a {
-        height: 100%;
-        padding: 0.5rem 0.8rem;
+        padding: 0.5rem 0.7rem;
     }
     
     .NavigationItem a:hover,
