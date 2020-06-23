@@ -1,15 +1,14 @@
 import React from "react";
 
 import "./Home.css";
+import Aux from "../../hoc/Auxiliary/Auxiliary";
 import Section from "../../components/UI/Section/Section";
 import Button from "../../components/UI/Button/Button";
 
 const Home = props => {
     return (
-        // <Aux> </Aux> ?
-        <div > 
-            <Section className="Home" sectionType="White" gridType="Column" >
-                {/* <div > */}
+        <Aux>
+            <Section sectionType="White" gridType="Column" >
                 <iframe 
                     title="Cat Angels video"
                     width="560" 
@@ -28,12 +27,15 @@ const Home = props => {
                     </p>
                     <Button>Help Us Support Our Mission</Button>
                 </div>
-                {/* </div> */}
-
-                
             </Section>
+            <Section sectionType="Blue" gridType="Column">
 
-        </div>
+            </Section>
+        </Aux>
+        
+            
+
+        
     );
 };
 

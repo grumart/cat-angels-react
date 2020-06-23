@@ -1,6 +1,6 @@
 .SocialMedia {
     display: flex;
-    padding: 2rem;
+    /* margin: 2rem; */
     margin-top: 17px;
 }
 
@@ -15,6 +15,6 @@
         width: 33.3%;
         display: flex;
         justify-content: space-around;
-        /* padding: 1rem; */
+        margin-top: 3rem;
     }
 }
