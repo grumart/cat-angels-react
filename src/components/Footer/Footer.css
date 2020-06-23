@@ -1,0 +1,18 @@
+.Footer {
+    background: #142850;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 500px) {
+    .Footer {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,18 @@
+.Address {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.Address-adnotation {
+    font-size: 0.8rem;
+    font-style: italic;
+    width: 70%;
+    padding-top: 1rem;
+    margin: 0 auto;
+}
+
+@media (min-width: 500px) {
+    .Address {
+        width: 33.3%;
+    }
+}

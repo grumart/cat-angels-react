@@ -1,0 +1,20 @@
+.SocialMedia {
+    display: flex;
+    padding: 2rem;
+    margin-top: 17px;
+}
+
+.SocialMedia img {
+    width: 32px;
+    height: 32px;
+    margin: 0 1.5rem;
+}
+
+@media (min-width: 500px) {
+    .SocialMedia {
+        width: 33.3%;
+        display: flex;
+        justify-content: space-around;
+        /* padding: 1rem; */
+    }
+}

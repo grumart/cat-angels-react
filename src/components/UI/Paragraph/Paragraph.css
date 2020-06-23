@@ -1,0 +1,22 @@
+.Paragraph {
+    color: #142850;
+    background-color: white;
+    margin: 1rem 0 0;
+    padding: 0;
+    text-align: justify;
+    font-style: normal;
+    font-size: 0.8rem;
+}
+
+.Paragraph-blue {
+    color: white;
+    background-color: #142850;
+}
+
+/* .Text-Align-Center {
+    text-align: center;
+}
+
+.Font-Style-Italic {
+    font-style: italic;
+} */
