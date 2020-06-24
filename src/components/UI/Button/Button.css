@@ -25,12 +25,15 @@
 
 .Button-blue:hover,
 .Button-blue:active {
-    border-color: white; 
-    font-weight: normal; 
+    border-color: #142850; 
+    background-color: #142850;
+    color: white;
 }
 
 .Button-white:hover,
 .Button-white:active {
-    border-color: #0c7b93;
-    font-weight: normal; 
+    border-color: white;
+    background-color: white;
+    color: #00a8cc;
+
 }
