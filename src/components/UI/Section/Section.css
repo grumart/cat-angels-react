@@ -1,7 +1,14 @@
 .Section {
-    padding: 1rem 0;
+    padding: 1rem 2rem;
     width: 100%;
-    line-height: 1.5
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.Section h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
 }
 
 .White {
@@ -10,17 +17,25 @@
 }
 
 .Blue {
-    background-color: #0c7b93;
+    background-color: rgba(12, 122, 146, 0.9);
     color: white;
+}
+
+.Flex {
+    display: flex;
+    flex-direction: column;
 }
 
 
 @media (min-width: 500px) {
     .Section {
-        padding: 3rem 0;
+        padding: 3rem 2rem;
+    }
+    .White {
+        padding: 5rem 2rem;
     }
     .Flex {
-        display: flex;
+        flex-direction: row;
         width: 100%;
     }
 }
