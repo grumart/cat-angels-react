@@ -1,0 +1,21 @@
+.Img {
+    border-radius: 50%; 
+    padding: 1rem 0;
+}
+
+.Img-sizing {
+    width: 320px;
+    height: 320px;
+}
+.Img-flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 500px) {
+    .Img-sizing {
+        width: 441px;
+        height: 441px;
+    }
+}

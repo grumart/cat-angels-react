@@ -1,12 +1,6 @@
 .Logo img {
-    height: 81px;
+    height: 70px;
     width: 200px;
     position: absolute;
-    top: 0.5rem;
-}
-
-@media (min-width: 48.5rem) {
-    .Logo img {
-        /* width: 20%; */
-    }
+    top: 30px;
 }

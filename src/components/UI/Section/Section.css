@@ -1,6 +1,7 @@
 .Section {
     padding: 1rem 0;
     width: 100%;
+    line-height: 1.5
 }
 
 .White {
@@ -9,16 +10,17 @@
 }
 
 .Blue {
-    background-color: #00a8cc;
+    background-color: #0c7b93;
     color: white;
 }
 
 
 @media (min-width: 500px) {
-    .Column {
-        display: grid;
-        grid-template-columns: 50% 50%;
+    .Section {
+        padding: 3rem 0;
+    }
+    .Flex {
+        display: flex;
         width: 100%;
-        /* padding: 0.5rem 0; */
     }
 }

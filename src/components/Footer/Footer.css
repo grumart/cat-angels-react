@@ -6,7 +6,7 @@
 .Footer-components {
     background: #142850;
     color: white;
-    padding-bottom: 1rem;
+    padding: 1rem 0;
     width: 100%;
     display: flex;
     flex-direction: column;
