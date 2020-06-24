@@ -1,0 +1,26 @@
+.Section {
+    padding: 1rem 0;
+    width: 100%;
+    line-height: 1.5
+}
+
+.White {
+    background-color: white;
+    color: #142850;
+}
+
+.Blue {
+    background-color: #0c7b93;
+    color: white;
+}
+
+
+@media (min-width: 500px) {
+    .Section {
+        padding: 3rem 0;
+    }
+    .Flex {
+        display: flex;
+        width: 100%;
+    }
+}

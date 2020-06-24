@@ -1,0 +1,21 @@
+.Footer {
+    display: flex;
+    flex-direction: column; 
+}
+
+.Footer-components {
+    background: #142850;
+    color: white;
+    padding: 1rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 500px) {
+    .Footer-components {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
