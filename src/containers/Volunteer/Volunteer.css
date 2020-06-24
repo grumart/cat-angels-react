@@ -1,7 +1,8 @@
-.Volunteer-imgs {
+.Volunteer-img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
 }
 @media (min-width: 500px) {
     .Volunteer-text {

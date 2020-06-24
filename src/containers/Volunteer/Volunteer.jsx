@@ -4,9 +4,7 @@ import "./Volunteer.css";
 import Section from "../../components/UI/Section/Section";
 import Aux from "../../hoc/Auxiliary/Auxiliary";
 import Img from "../../components/UI/Image/Img";
-import imgCat1 from "../../assets/imgs/web-cats/vol_cat1.jpg";
-import imgCat2 from "../../assets/imgs/web-cats/vol_cat2.jpg";
-import imgCat3 from "../../assets/imgs/web-cats/vol_cat3.jpg";
+import AdoptImg from "../../assets/imgs/web-cats/adopt_cat1.jpg";
 import Button from "../../components/UI/Button/Button";
 
 const Volunteer = props => {
@@ -22,12 +20,10 @@ const Volunteer = props => {
                         <p>If mobility issues prohibit you from helping at our adoption facility but you would still like to give back, volunteering at the Thrift Store is a wonderful way to help!</p>
                         <p>Have a special talent such as photography, accounting, web design, marketing, or fundraising? We would LOVE your help. We have lots of opportunities for people with different skills.</p>
                         <p>Fill out an application and our Volunteer Coordinator will be in touch soon to discuss. If you would like to volunteer with us, please complete the </p>
-                    <Button btnColor="Button-white">volunteer application</Button>
+                    <Button btnColor="Button-white">VOLUNTEER APPLICATION</Button>
                 </div>
-                <div className="Volunteer-imgs">
-                    <Img src={imgCat1} imgType="Img-small-only" alt="image of a cat" />
-                    <Img src={imgCat2} imgType="Img-small-only" alt="image of a cat" />
-                    <Img src={imgCat3} imgType="Img-small-only" alt="image of a cat" />
+                <div className="Volunteer-img">
+                    <Img src={AdoptImg} alt="cat image" imgType="Img-sizing" />
                 </div>
             </Section>
         </Aux>

@@ -1,5 +1,5 @@
 .Button {
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     padding: 1rem;
     border-radius: 8px;
     border-width: 0;
@@ -13,22 +13,24 @@
 
 .Button-blue {
     color: #00a8cc;
-    border: solid 1px #00a8cc;
+    border: solid 3px #00a8cc;
     background: inherit;
 }
 
 .Button-white {
     color: white;
-    border: 1px solid white;
+    border: 3px solid white;
     background: inherit;
 }
 
 .Button-blue:hover,
 .Button-blue:active {
     border-color: white; 
+    font-weight: normal; 
 }
 
 .Button-white:hover,
 .Button-white:active {
     border-color: #0c7b93;
+    font-weight: normal; 
 }

@@ -13,7 +13,7 @@ const NavitagionItems = props => {
             <NavigationItem link="/animals">Animals</NavigationItem>
             <NavigationItem link="/wait">Wait List</NavigationItem>
             <NavigationItem link="/shop">Thrift Shop</NavigationItem>
-            <NavigationItem cta link="/donate">Donate</NavigationItem>
+            <NavigationItem cta link="/donate">DONATE</NavigationItem>
         </ul>
     );
 };

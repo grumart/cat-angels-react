@@ -18,15 +18,20 @@
 }
 
 .NavigationItem-cta a {
-    color: white;
-    background: #00a8cc;
-    border-radius: 8px;   
+    color: #00a8cc;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border: 3px solid #00a8cc;
+    background: inherit;
+    border-radius: 8px; 
+    font-family: 'Montserrat', sans-serif; 
 }
 
 .NavigationItem-cta a:hover,
-.NavigationItem-cta a:active {
-    color: #00a8cc;
-    background: white; 
+.NavigationItem-cta a:active,
+.NavigationItem-cta a.active {
+    border-color: white; 
+    font-weight: normal; 
 }
 
 @media (min-width: 500px) {

@@ -5,7 +5,7 @@ import Aux from "../../hoc/Auxiliary/Auxiliary";
 import Section from "../../components/UI/Section/Section";
 import Button from "../../components/UI/Button/Button";
 import Img from "../../components/UI/Image/Img";
-import catImg from "../../assets/imgs/web-cats/angel1_1.jpg";
+import catImg from "../../assets/imgs/web-cats/home_cat1.jpg";
 import Card from "../../components/UI/Card/Card";
 
 const Home = props => {
@@ -28,7 +28,7 @@ const Home = props => {
                     <p>
                         - Deborah Fox, President and Founder of Cat Angels Pet Adoptions
                     </p>
-                    <Button btnColor="Button-blue">Help Us Support Our Mission</Button>
+                    <Button btnColor="Button-blue">HELP US SUPPORT OUR MISSION</Button>
                 </div>
             </Section>
             <Section sectionType="Blue" displayType="Flex">

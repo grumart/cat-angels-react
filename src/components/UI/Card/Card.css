@@ -7,8 +7,9 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: #00a8cc;
-    color: white;
+    border: 3px solid #00a8cc;
+    background: inherit;
+    color: #00a8cc;
     font-size: 1.5rem;
     text-align: center;
     font-weight: bold;
@@ -16,13 +17,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Prata', serif;
     letter-spacing: 0.1rem;
 }
 
 .Card-icon:hover {
-    color: #0c7b93;
-    background: white;    
+    color: #00a8cc;
+    border-color: white; 
+    font-weight: normal;   
 }
 
 .Card-text {

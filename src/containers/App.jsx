@@ -6,6 +6,7 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import Home from "./Home/Home";
 import Volunteer from "./Volunteer/Volunteer";
+import Adopt from "./Adopt/Adopt";
 
 const App = props => {
     return (
@@ -14,6 +15,7 @@ const App = props => {
             <Switch>
                 <Route path="/" exact component={Home} />
                 <Route path="/volunteer" component={Volunteer} />
+                <Route path="/adopt" component={Adopt} />
             </Switch>
             <Footer />
         </div>
