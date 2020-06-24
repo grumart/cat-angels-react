@@ -1,5 +1,5 @@
 .Home-mission {
-  padding: 2rem;
+  padding: 2rem 0;
   margin: 0;
   width: 100%;
   text-align: justify;
@@ -11,16 +11,6 @@
   text-align: right;
 }
 
-.Home-aboutUsContainer {
-  padding: 1rem 2rem;
-  text-align: justify;
-  width: 100%;
-}
-
-.Home-aboutUsContainer h1 {
-  text-align: center;
-}
-
 .Home-aboutUsImg {
   box-sizing: border-box;
   width: fit-content;
@@ -30,7 +20,6 @@
 @media (max-width: 40rem) {
     iframe {
       width: 100%;
-      padding: 0 2rem;
     }
   }
 

@@ -7,13 +7,13 @@ import NavigationItem from "./NavitagionItem/NavitagionItem";
 const NavitagionItems = props => {
     return (
         <ul className="NavigationItems">
-            <NavigationItem link="/">Home</NavigationItem>
-            <NavigationItem link="/">Volunteer</NavigationItem>
-            <NavigationItem link="/">Adopt</NavigationItem>
-            <NavigationItem link="/">Animals</NavigationItem>
-            <NavigationItem link="/">Wait List</NavigationItem>
-            <NavigationItem link="/">Thrift Shop</NavigationItem>
-            <NavigationItem cta link="/">Donate</NavigationItem>
+            <NavigationItem link="/" exact>Home</NavigationItem>
+            <NavigationItem link="/volunteer">Volunteer</NavigationItem>
+            <NavigationItem link="/adopt">Adopt</NavigationItem>
+            <NavigationItem link="/animals">Animals</NavigationItem>
+            <NavigationItem link="/wait">Wait List</NavigationItem>
+            <NavigationItem link="/shop">Thrift Shop</NavigationItem>
+            <NavigationItem cta link="/donate">Donate</NavigationItem>
         </ul>
     );
 };

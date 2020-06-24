@@ -1,7 +1,6 @@
 .Card {
     padding: 1.5rem 0;
     margin: 0 auto;
-    /* display: flex; */
 }
 
 .Card-icon {
@@ -29,7 +28,7 @@
 .Card-text {
     text-align: justify;
     width: 100%;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 0;
 }
 
 @media (min-width: 500px) {

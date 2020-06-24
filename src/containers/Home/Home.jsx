@@ -28,7 +28,7 @@ const Home = props => {
                     <p>
                         - Deborah Fox, President and Founder of Cat Angels Pet Adoptions
                     </p>
-                    <Button>Help Us Support Our Mission</Button>
+                    <Button btnColor="Button-blue">Help Us Support Our Mission</Button>
                 </div>
             </Section>
             <Section sectionType="Blue" displayType="Flex">
