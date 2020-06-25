@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-.Card-icon {
+.Card-title {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -20,7 +20,7 @@
     letter-spacing: 0.1rem;
 }
 
-.Card-icon:hover {
+.Card-title:hover {
     color: white;
     border-color: #142850; 
     background-color: #142850;   

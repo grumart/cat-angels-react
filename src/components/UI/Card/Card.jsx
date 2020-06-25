@@ -1,11 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Card.css";
 
 const Card = props => {
     return (
-        <div className="Card">
-          <div className="Card-icon">{props.cardTitle}</div>
+        <div className="Card"> 
+          <Link to={props.linkTo}>
+            <div className="Card-title">
+              {props.cardTitle}
+            </div>
+          </Link>
         <div className="Card-text">
           <p>{props.children}</p>
         </div>

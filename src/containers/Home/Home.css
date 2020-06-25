@@ -1,17 +1,17 @@
-.Home-mission {
+.Home-quote {
   padding: 2rem 0;
   margin: 0;
   width: 100%;
   text-align: justify;
 }
 
-.Home-mission p {
+.Home-quote p {
   font-size: 0.7rem;
   font-style: italic;
   text-align: right;
 }
 
-.Home-aboutUsImg {
+.Home-img {
   box-sizing: border-box;
   width: fit-content;
   margin: auto;
@@ -24,16 +24,11 @@
   }
 
 @media (min-width: 500px) {
-  iframe {
-    margin-left: 2rem;
-  }
-
-  .Home-mission {
-    padding-right: 2rem;
+  .Home-quote {
     margin: auto;
     width: 40%;
   }
-  .Home-aboutUsContainer {
+  .Home-text {
     width: 50%;
   }
 }

@@ -8,6 +8,7 @@ import AdoptImg from "../../assets/imgs/web-cats/adopt_cat1.jpg";
 import Button from "../../components/UI/Button/Button";
 
 const Volunteer = props => {
+   
     return (
         <Aux>
             <Section sectionType="Blue" displayType="Flex">
