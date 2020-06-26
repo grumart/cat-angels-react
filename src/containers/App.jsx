@@ -10,6 +10,7 @@ import Adopt from "./Adopt/Adopt";
 import WaitList from "./WaitList/WaitList";
 import TriftShop from "./TriftShop/TriftShop";
 import Donate from "./Donate/Donate";
+import Animals from "./Animals/Animals";
 
 const App = props => {
     return (
@@ -22,6 +23,7 @@ const App = props => {
                 <Route path="/waitList" component={WaitList} />
                 <Route path="/shop" component={TriftShop} />
                 <Route path="/donate" component={Donate} />
+                <Route path="/animals" component={Animals} />
             </Switch>
             <Footer />
         </div>
