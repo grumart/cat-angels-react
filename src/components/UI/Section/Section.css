@@ -36,6 +36,7 @@
     }
     .Flex {
         flex-direction: row;
+        justify-content: space-between;
         width: 100%;
     }
 }

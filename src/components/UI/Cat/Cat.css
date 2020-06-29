@@ -1,0 +1,69 @@
+.Cat {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem auto;
+    border: 1px solid white;
+}
+
+.Cat-img {
+    display: flex;
+}
+
+.Cat-img img {
+    border-radius: 50%; 
+    margin: 1rem auto;
+    border: 3px solid white;
+    width: 200px;
+    height: 200px;
+}
+
+.Cat-info {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    line-height: 1.5;
+}
+
+.Cat-info-list {
+    list-style: none;
+    padding: 0;
+}
+
+.Cat-description {
+    text-align: justify;
+    line-height: 1.5;
+    color: white;
+}
+
+.Cat-description details {
+    list-style: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media (min-width: 500px) {
+    .Cat {
+        border: 1px solid white;
+        width: 355px;
+    }
+    
+    .Cat-img img {
+        margin: 0 auto;
+    }
+    
+    .Cat-info {
+    
+    }
+    
+    .Cat-info-list {
+        margin: 0.5rem 0.5rem;
+    
+    }
+    
+    .Cat-description {
+        width: 300px;
+    }
+    
+}

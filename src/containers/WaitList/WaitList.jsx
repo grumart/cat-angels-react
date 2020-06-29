@@ -13,7 +13,7 @@ const WaitList = props => {
                 <div className="WaitList-text">
                     <h1>Cat Angels Wait List</h1>
                     <h3>We are full and not accepting cats into our program at this time.</h3>
-                    <p>Please go to <a class="store_link" href="https://www.petfinder.com/" >petfinder.com</a> and in The area where it says "Search for Rescues" enter Your zip code.</p>
+                    <p>Please go to <a href="https://www.petfinder.com/" >petfinder.com</a> and in The area where it says "Search for Rescues" enter Your zip code.</p>
                     <p>A list of many rescue groups that are close to that zip code will be displayed. Please contact all of them to help with the placement of your cat or kitten.</p>
                 </div>
                 <div className="WaitList-img">
