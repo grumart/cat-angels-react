@@ -13,6 +13,7 @@ const Home = props => {
     return (
         <Aux>
             <Section sectionType="White" displayType="Flex" >
+                {/* Don't have access to their YT account */}
                 <iframe 
                     title="Cat Angels video"
                     width="560" 

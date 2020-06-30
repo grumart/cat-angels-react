@@ -5,6 +5,7 @@
     padding: 1rem;
     margin: 1rem auto;
     border: 3px solid white;
+    border-radius: 8px;
 }
 
 .Cat-img {
@@ -24,6 +25,7 @@
     color: white;
     justify-content: space-between;
     line-height: 1.5;
+    margin: 0.5rem 0;
 }
 
 .Cat-info-list {
@@ -32,28 +34,18 @@
 }
 
 .Cat-description {
-    text-align: justify;
-    line-height: 1.5;
-    color: white;
-}
-
-.Cat-description details {
-    list-style: none;
-    outline: none;
-    cursor: pointer;
+    margin: auto;
 }
 
 @media (min-width: 500px) {
     .Cat {
         width: 355px;
+        height: 570px;
+        overflow: auto;
     }
     
     .Cat-img img {
         margin: 0 auto;
-    }
-    
-    .Cat-info {
-    
     }
     
     .Cat-info-list {
