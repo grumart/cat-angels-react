@@ -4,7 +4,7 @@
     flex-direction: column;
     padding: 1rem;
     margin: 1rem auto;
-    border: 1px solid white;
+    border: 3px solid white;
 }
 
 .Cat-img {
@@ -45,7 +45,6 @@
 
 @media (min-width: 500px) {
     .Cat {
-        border: 1px solid white;
         width: 355px;
     }
     
