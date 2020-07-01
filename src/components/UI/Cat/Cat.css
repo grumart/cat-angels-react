@@ -25,7 +25,7 @@
     color: white;
     justify-content: space-between;
     line-height: 1.5;
-    margin: 0.5rem 0;
+    
 }
 
 .Cat-info-list {
@@ -38,12 +38,13 @@
 }
 
 @media (min-width: 500px) {
+
     .Cat {
-        width: 355px;
+        width: 370px;
         height: 570px;
-        overflow: auto;
+        padding: 2rem;
     }
-    
+
     .Cat-img img {
         margin: 0 auto;
     }
@@ -52,9 +53,6 @@
         margin: 0.5rem 0.5rem;
     
     }
-    
-    .Cat-description {
-        /* width: 300px; */
-    }
+  
     
 }

@@ -10,7 +10,7 @@
     margin: 1rem 1.5rem;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 800px) {
     .SocialMedia {
         width: 33.3%;
         display: flex;

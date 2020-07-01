@@ -19,7 +19,9 @@ const Donate = props => {
                     <p>You can purchase items from Amazon and ship straight to the shelter. Wish list items include cat food, medication, gloves, trash bags, paper towels, and other items we need to keep the shelter activities running smoothly.</p>
                 </div>
                 <div className="Donate-card-btn">
-                    <Button btnColor="Button-blue">amazon wishlist</Button>
+                    <a href="https://www.amazon.com/gp/registry/wishlist/AA1MMN7XY0J5?ref_=cm_sw_em_r_z_g__wb&pldnSite=1">
+                        <Button btnColor="Button-blue">amazon wishlist</Button> 
+                    </a>
                 </div>
             </div>
             <div className="Donate-card">
@@ -30,7 +32,7 @@ const Donate = props => {
                     <p>Make a one-time gift or set up recurring donations securely online. Make your gift by credit card, debit card, or e-checks through PayPal. You do not have to have to log on to PayPal or have a PayPal account to use this service.</p>
                 </div>
                 <div className="Donate-card-btn">
-                    <Button btnColor="Button-blue">paypal donation</Button>
+                    <Button disabled btnColor="Button-blue">paypal donation</Button>
                 </div>
             </div>
             <div className="Donate-card">
@@ -43,7 +45,7 @@ const Donate = props => {
                     <p>2020 Cat Angels Calendars are here! Order Yours:</p>
                 </div>
                 <div className="Donate-card-btn">
-                    <Button btnColor="Button-blue">cat angels calendar</Button>
+                    <Button disabled btnColor="Button-blue">cat angels calendar</Button>
                 </div>
             </div>
 

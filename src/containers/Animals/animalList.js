@@ -237,7 +237,7 @@
         name: "Mary Tyler Moore",
         sex: "Female",
         breed: "Domestic Short Hair",
-        color: "Black sml white locket bikini",
+        color: "Black & white bikini",
         coat: "Short",
         altered: "Yes",
         age: "3 years",

@@ -11,7 +11,6 @@ const Cat = props => {
     
     const buttonHandler = () => {
         setMoreInfo(true);
-        console.log("clicked"); 
     }
 
     const cancelMoreInfo = () => {
