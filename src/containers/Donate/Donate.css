@@ -6,9 +6,11 @@
     display: flex;
     flex-direction: column;
     color: #142850;
+    
 }
 
 .Donate-card {
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,15 +22,11 @@
     border-radius: inherit;
 }
 
-.Donate-card-text{
-
-}
-
 .Donate-card-btn{
     width: 100%;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 800px) {
     .Donate-container {
         flex-direction: row;
         padding: 2rem 0;
@@ -39,18 +37,10 @@
         justify-content: space-between;
         margin: 2rem;
         justify-content: space-between;
-    
     }
-    
-    .Donate-card-icon {
-    
-    }
-    
+
     .Donate-card-text{
         height: 240px;
     }
     
-    .Donate-card-btn{
-    
-    }
 }

@@ -4,7 +4,8 @@
     flex-direction: column;
     padding: 1rem;
     margin: 1rem auto;
-    border: 1px solid white;
+    border: 3px solid white;
+    border-radius: 8px;
 }
 
 .Cat-img {
@@ -24,6 +25,7 @@
     color: white;
     justify-content: space-between;
     line-height: 1.5;
+    
 }
 
 .Cat-info-list {
@@ -32,38 +34,25 @@
 }
 
 .Cat-description {
-    text-align: justify;
-    line-height: 1.5;
-    color: white;
-}
-
-.Cat-description details {
-    list-style: none;
-    outline: none;
-    cursor: pointer;
+    margin: auto;
 }
 
 @media (min-width: 500px) {
+
     .Cat {
-        border: 1px solid white;
-        width: 355px;
+        width: 370px;
+        height: 570px;
+        padding: 2rem;
     }
-    
+
     .Cat-img img {
         margin: 0 auto;
-    }
-    
-    .Cat-info {
-    
     }
     
     .Cat-info-list {
         margin: 0.5rem 0.5rem;
     
     }
-    
-    .Cat-description {
-        width: 300px;
-    }
+  
     
 }

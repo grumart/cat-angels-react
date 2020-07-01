@@ -27,13 +27,14 @@
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 800px) {
     .Section {
         padding: 3rem 2rem;
     }
     .White {
-        padding: 5rem 2rem;
+        padding: 7rem 2rem;
     }
+
     .Flex {
         flex-direction: row;
         justify-content: space-between;

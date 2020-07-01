@@ -73,7 +73,7 @@
         coat: "Unknown or N/A",
         altered: "Yes",
         age: "5 years",
-        description: "Hi ! My name is Cardi, I am a sweet girl who loves head scratches and tummy rubs! I was adopted after I raised 5 wonderful kittens but was returned. After I came back, I was found to be FIV positive.. The wonderful folks here at Cat Angels wanted you to understand a bit more about FIV so they put in the below from Vetinfo.com Feline immunoddeficiency virus, or FIV, is called feline AIDs because it behaves in the same way inside your cat's body that HIV, the virus that causes AIDS, behaves inside the human body. FIV is not contagious to humans or other species. Though it's contagious from cat to cat, it's difficult to spread; transmission usually requires a deep bite wound, though it can also be spread through blood transfusions and by minor bite wounds if the infected cat's gums are bleeding. It cannot be passed by litter boxes, water or food bowls, or by casual contact; it's very rare for this disease to be spread from mother to kitten. Feline immunodeficiency virus compromises your cat's immune system. This means that he can no longer fight off illnesses and infections, and he'll be vulnerable to a range of secondary infections that may be rare in healthy cats. FIV cats may suffer serious illness, and even death, as a result of illnesses and infections that would be considered quite minor, if they weren't immuno-compromised. The good news is that cats with FIV may never display symptoms; they may live normal, happy, healthy life spans. Caring for a cat with FIV is much the same as caring for any other cat; you must simply be extra vigilant for signs of illness. FIV cats must be kept indoors at all times, and away from contact with non-infected cats, though they may be allowed contact with other FIV positive cats. FIV cats should be kept as free as possible from stress. They should enjoy a high quality, high protein diet. Secondary infections should be watched for and any health problems, no matter how minor they might seem, should be treated immediately as they arise."
+        description: "Hi ! My name is Cardi, I am a sweet girl who loves head scratches and tummy rubs! I was adopted after I raised 5 wonderful kittens but was returned. After I came back, I was found to be FIV positive.. The wonderful folks here at Cat Angels wanted you to understand a bit more about FIV so they put in the below from Vetinfo.com Feline immunoddeficiency virus, or FIV, is called feline AIDs because it behaves in the same way inside your cat's body that HIV, the virus that causes AIDS, behaves inside the human body. FIV is not contagious to humans or other species. Though it's contagious from cat to cat, it's difficult to spread. If you need more info, please ask us! "
       },
       {
         catId: 5,
@@ -237,7 +237,7 @@
         name: "Mary Tyler Moore",
         sex: "Female",
         breed: "Domestic Short Hair",
-        color: "Black sml white locket bikini",
+        color: "Black & white bikini",
         coat: "Short",
         altered: "Yes",
         age: "3 years",
