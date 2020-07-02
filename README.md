@@ -4,8 +4,11 @@ This project was build based on original websiate of "Cat Angels Pet Adoptions" 
 Some of the fetures like PayPal donations are not available in this project due not having an access to their PayPal account.
 
 ![Cat Angels Home in mobile device](/src/assets/screenshots/home.png) ![Cat Angels side drawer](/src/assets/screenshots/sideDrawer.png)
+
 ![Cat Angels Animals in mobile device](/src/assets/screenshots/animals.png) ![Cat Angels Cat's description](/src/assets/screenshots/animals-description.png)
-![Cat Angels Donate desktop](/src/assets/screenshots/donate_dekstop.png)
+
+![Cat Angels Donate desktop](/src/assets/screenshots/donate_desktop.png)
+
 ![Cat Angels About Us desktop](/src/assets/screenshots/about-us_desktop.png)
 
 
