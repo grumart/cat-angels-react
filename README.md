@@ -3,7 +3,7 @@
 This project was build based on original websiate of "Cat Angels Pet Adoptions" - https://catangelsnc.org/Public/Default.aspx
 Some of the fetures like PayPal donations are not available in this project due not having an access to their PayPal account.
 
---
+![Cat Angels Home in mobile device](/src/assets/screenshots/home.png)
 
 
 
